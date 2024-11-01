@@ -1,0 +1,105 @@
+a:focus {
+    outline: 0!important;
+    box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+}
+#wpcontent {
+    background-color: #ffffff;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 2;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 875px;
+}
+.teamacle-title {
+	text-align: center;
+}
+.teamacle-title > img {
+	width: 258px;
+	height: 24px;
+}
+.teamacle-title > p {
+	font-size: 30px;
+	margin-top: 10px;
+}
+.cta {
+    background: white;
+    border: 1px solid #dde5ed;
+    padding: 60px 50px 50px;
+    max-width: 875px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 2px 1px 0 #e6e5e5;
+    position: relative;
+}
+
+.t__h1 {
+    color: #1f8ceb;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.3;
+    letter-spacing: -.015em;
+    margin: -10px auto 17px
+}
+
+.c__red {
+    color: #e04e50;
+}
+.c__blue {
+    color: #1f8ceb;
+}
+
+#teamacle_chat_center_id {
+    background-color: #FFF;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: none;
+    padding-left: 10px;
+}
+
+.teamacle-install-card-messenger-visibility {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    right: 15px;
+    bottom: 30px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.teamacle-install-card-messenger-visibility > p {
+    font-size: 11px;
+    color: #8CA2B5;
+    margin-top: 15px;
+}
+
+@media (min-width: 1025px) {
+    .sp__2--xlg {
+        display: block;
+        height: 20px
+    }
+}
+
+@media (max-width: 768px) and (min-width: 1024px) {
+    .sp__2--lg {
+        display: block;
+        height: 20px;
+    }
+    .t__h1 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 767px) {
+    .t__h1 {
+        font-size: 34px;
+    }
+}
